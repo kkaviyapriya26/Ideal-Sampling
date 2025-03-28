@@ -2,9 +2,9 @@
 ## Aim:
   To demonstrate the sampling and reconstruction of a continuous-time signal using Python.
 ## Tools required:
-- Personal Computer with scilab
 - Python IDE (Numpy)
 ## Program:
+~~~~
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import resample
@@ -41,7 +41,7 @@ plt.ylabel('Amplitude')
 plt.grid(True)
 plt.legend()
 plt.show()
-
+~~~~
 ## Output Waveform:
 ![image](https://github.com/user-attachments/assets/7ba19940-e254-4b19-ba9f-e772776e05c0)
 
